@@ -15,7 +15,7 @@ fn main() {
 
 // We can create our own gizmo config group!
 #[derive(Default, Reflect, GizmoConfigGroup)]
-struct MyRoundGizmos {}
+struct MyRoundGizmos { }
 
 fn setup(mut commands: Commands) {
     commands.spawn(Camera2dBundle::default());
